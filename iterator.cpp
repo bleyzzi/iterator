@@ -53,7 +53,7 @@ int main()
 	}
 	catch(exception &e)
 	{
-		cerr << "Error";
+		cerr << e.what();
 	}
 
 	return 0;
