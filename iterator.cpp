@@ -31,7 +31,7 @@ int main()
 	l.print();
 	cout << "\n";
 	try {
-		ListIterator* litS3 = l.createIterator(Iterators::STEP, 2);
+		ListIterator* litS3 = l.createIterator(Iterators::STEP, 3);
 		ListIterator* litV4 = l.createIterator(Iterators::VALUE, 2);
 		ListIterator* litPred = l.createIterator(Iterators::PREDICATE, 0, predicate);
 		litS3->first();
